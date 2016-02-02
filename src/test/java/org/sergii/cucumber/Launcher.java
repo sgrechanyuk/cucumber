@@ -5,6 +5,6 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(format = {"html:cucumber"}, features = {"src/test/resources/feature/my.feature"})
+@CucumberOptions(format = {"junit:cucumber/report.xml"}, features = {"src/test/resources/feature/my.feature"})
 public class Launcher {
 }
